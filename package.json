@@ -1,0 +1,32 @@
+{
+	"name": "NotePadApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"babel-preset-react-native": "2.1.0",
+		"firebase": "^4.3.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.47.2",
+		"react-native-busy-indicator": "^1.1.0",
+		"react-native-fetch-blob": "^0.10.1-beta.1",
+		"react-native-image-crop-picker": "^0.16.0",
+		"react-native-image-picker": "^0.26.4",
+		"react-native-imagepicker": "^2.0.0",
+		"react-native-img-button": "^1.0.1",
+		"react-native-modal-datetime-picker": "^4.9.0",
+		"react-navigation": "^1.0.0-beta.11",
+		"rn-camera-roll": "0.0.5"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
